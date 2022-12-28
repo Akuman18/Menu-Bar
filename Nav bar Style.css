@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+ header {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+header,
+span {
+    padding: 4px;
+    margin: 10px;
+}
+
+span {
+    background-color: #ff2600;
+}
+
+span:hover {
+    text-decoration: underline;
+    background-color: blue;
+    color: chartreuse;
+} 
+
+
+ ul {
+    width: 970px;
+    margin: auto;
+    background-color: skyblue;
+    border: 2px solid rgb(73, 208, 231);
+    height: 50px;
+}
+
+ ul li {
+    padding: 15px;
+     display: inline-block; 
+    float: left;
+    list-style-type: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+} 
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Prosto One', cursive;
+    background-color: #2d2d2d;
+}
+
+nav{
+    margin-top: 200px;
+    text-align: center;
+}
+
+nav ul {
+display: inline-block;
+list-style-type: none;
+transform: skew(-25deg);
+}
+
+nav ul li{
+   background-color:  #fff;
+   float: left;
+   border: 1px solid lightgrey;
+   box-shadow: 1.95px 1.95px 2.6px black;
+   text-transform: uppercase;
+   color: #ca0aa1;
+   font-weight: 400px;
+   transition: all 0.2s linear;
+
+}
+
+nav ul li:hover{
+    background-color: skyblue;
+    color: #fff;
+}
+
+a{
+    color: inherit;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    transform: skew(25deg);
+}
+
+nav ul li:first-child{
+    border-radius: 7px 0 0 7px;
+}
+
+nav ul li:last-child {
+    border-radius: 0 7px 7px 0;
+}
